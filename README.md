@@ -20,9 +20,8 @@ Este proyecto es un ejemplo básico de un web chat desarrollado utilizando Socke
 1. Ejecuta el servidor en modo desarrollo:
 
     ```bash
-        Copy code
-        cd web-chat-proyecto
-        npm install
+        npm run dev
+        
 2. Abre tu navegador y visita http://localhost:3000.
 
 3. Disfruta del web chat básico.
