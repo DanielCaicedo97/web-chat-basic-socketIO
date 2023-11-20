@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Chat</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/chat.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header-box">
+            <h1 class="h1-discord">Web Chat con socket.io</h1>
+        </header>
+
+        <main>
+            <div class="all-messages" id="all-messages">   
+                <!-- Aqui los mensajes -->
+            </div>
+            
+            <section class="input-box">
+                <input type="text" id="message" class="input-discord" placeholder="Escribe tu mensaje...">
+                <button type="button" id="send-message" class="btn-discord">Enviar</button>
+            </section>
+        </main>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
